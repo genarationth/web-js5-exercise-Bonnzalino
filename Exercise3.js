@@ -21,9 +21,10 @@ oddNumber(100);
 
 //Write a method with a while loop to print 1 through n in square brackets. 
 //For example, if n = 6 print [1] [2] [3] [4] [5] [6]
-// const print = function(n){
-//     let count = 1;
-//     while ( count <= n) {
-//         console.log(`${count}`); count++;
-//     }
-// }
+const print = (n) =>{
+    let count = 1;
+    while ( count <= n) {
+        console.log(`[${count}]`); count++;
+    }
+}
+print(6);
