@@ -28,3 +28,21 @@ const print = (n) =>{
     }
 }
 print(6);
+
+// - Write a method with a while loop that computes the sum of first n positive integers: 
+// sum = 1 + 2 + 3 + … + n
+// Examples:
+// n = 5 sum = 15
+// n = 19 sum = 190
+
+const sum = (x) => {
+    let count = 0;
+    let result = 0;
+    while (count <= x) {
+      result += count; // result = result + count
+      count++ // count = count + 1
+      console.log(result);
+    }
+    return result;
+}
+  sum(10);
